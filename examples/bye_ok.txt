@@ -1,0 +1,7 @@
+Via: SIP/2.0/UDP 10.0.1.50:5060;branch=z9hG4bK-d8754z-6c368d78ef655741-1---d8754z-;rport=5060
+From: "Kevin snom" <sip:510@10.0.1.50:5060>;tag=35022e16
+To: <sip:500@10.0.1.50>;tag=646386457
+Call-ID: MDg0NzMxZDFhZmIzYTM0ZjIzZjUxZjZjMWNmOTVmOWY.
+CSeq: 2 BYE
+User-Agent: CyberData v3.1 SPA v8.0.2beta01
+Content-Length: 0

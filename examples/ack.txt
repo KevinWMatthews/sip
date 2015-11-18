@@ -1,0 +1,9 @@
+Via: SIP/2.0/UDP 10.0.1.50:5060;branch=z9hG4bK-d8754z-ef0fb1447c1dc62d-1---d8754z-;rport
+Max-Forwards: 70
+Contact: <sip:510@10.0.1.50:5060>
+To: <sip:500@10.0.1.50>;tag=1463404006
+From: "Kevin snom"<sip:510@10.0.1.50:5060>;tag=7818c963
+Call-ID: ZTcyYmVjMzk3NzBmNmM2MGNkMGMzMzI4NDU5YzVmNDY.
+CSeq: 1 ACK
+User-Agent: 3CXPhoneSystem 12.0.41311.996 (34969)
+Content-Length: 0

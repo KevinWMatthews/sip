@@ -1,0 +1,8 @@
+Via: SIP/2.0/UDP 10.10.1.184:5060;rport=5060;branch=z9hG4bK273142125
+Proxy-Authenticate: Digest nonce="414d535c0c5c642784:6b435e46b77d30289cd9ad8a32714da3",algorithm=MD5,realm="3CXPhoneSystem"
+To: <sip:500@10.0.1.50>;tag=da479721
+From: <sip:500@10.0.1.50>;tag=3281881597
+Call-ID: 4066885731
+CSeq: 50 REGISTER
+User-Agent: 3CXPhoneSystem 12.0.41311.996 (34969)
+Content-Length: 0

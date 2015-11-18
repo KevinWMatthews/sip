@@ -1,0 +1,11 @@
+Via: SIP/2.0/UDP 10.10.1.184:5060;rport;branch=z9hG4bK273142125
+From: <sip:500@10.0.1.50>;tag=3281881597
+To: <sip:500@10.0.1.50>
+Call-ID: 4066885731
+CSeq: 50 REGISTER
+Contact: <sip:500@10.10.1.184:5060;line=240d6300baaf594>
+Authorization: Digest username="500", realm="3CXPhoneSystem", nonce="414d535c0c5c62c829:7741d1b5e5b5b8c8f0f565a13f5689e3", uri="sip:10.0.1.50", response="aa6305060692cf5ebbee94ed3bb1f665", algorithm=MD5
+Max-Forwards: 70
+User-Agent: CyberData v3.1 SPA v8.0.2beta01
+Expires: 360
+Content-Length: 0
