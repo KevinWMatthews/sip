@@ -1,0 +1,18 @@
+SIP Terminology
+
+Messages
+	individual "text bodies" between servers and clients
+
+Transactions
+	All messages from first request to final response
+	(say, INVITE, RINGING, OK)
+	Does not include ACK
+
+Dialogue
+	A persistent peer-to-peer SIP relationship between two UA's.
+	Everything from the INVITE to the final BYE/OK transaction.
+	This is identified by a Call-ID, but is not a "Call" because a call can include multiple callees, each with their own dialogue with the caller.
+	Also called a call-leg.
+
+Call
+	All dialogues of a callee, i.e., could be a conference call.

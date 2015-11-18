@@ -1,0 +1,34 @@
+SIP Response
+
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP site4.server2.com;branch=z9hG4bKnashds8;received=192.0.2.3
+Via: SIP/2.0/UDP site3.server1.com;branch=z9hG4bK77ef4c2312983.1;received=192.0.2.2
+Via: SIP/2.0/UDP pc33.server1.com;branch=z9hG4bK776asdhds;received=192.0.2.1
+To: user2 <sip:user2@server2.com>;tag=a6c85cf
+From: user1 <sip:user1@server1.com>;tag=1928301774
+Call-ID: a84b4c76e66710@pc33.server1.com
+CSeq: 314159 INVITE
+Contact: <sip:user2@192.0.2.4>
+Content-Type: application/sdp
+Content-Length: 131
+
+---- User2 Message Body Not Shown ----
+
+
+	Status Line
+<SIP-Version> <Status-Code> <Reason-Phrase>
+SIP/2.0 200 OK
+
+	Via
+Via: SIP/2.0/UDP site4.server2.com;branch=z9hG4bKnashds8;received=192.0.2.3
+Via: SIP/2.0/UDP site3.server1.com;branch=z9hG4bK77ef4c2312983.1;received=192.0.2.2
+Via: SIP/2.0/UDP pc33.server1.com;branch=z9hG4bK776asdhds;received=192.0.2.1
+Each proxy server has appended its own identity so that the message path can be retraced.
+
+	To
+To: user2 <sip:user2@server2.com>;tag=a6c85cf
+Now contains a tag that represents the callee (why?)
+
+	Contact
+Contact: <sip:user2@192.0.2.4>
+Send exact address of user2 to user1

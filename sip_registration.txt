@@ -1,0 +1,18 @@
+SIP Registration
+
+Each client sends a REGISTER message that informs the server of its present location.
+The Registrar stores this binding (user/address) in a location server.
+Proxies use this location server.
+
+	End User (yy) -> SIP Registrar (xx.org)
+REGISTER sip:xx.org SIP/2.0
+From: sip:yy@xx.org
+To: sip:yy@xx.org
+Contact <sip:xxx.xxx.xxx.xxx>
+Expires: 3600
+
+	SIP Registrar -> Location Server
+yy@xxx.xxx.xxx.xxx
+
+	SIP Registrar -> End User
+SIP/2.0 200 OK

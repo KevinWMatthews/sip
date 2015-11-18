@@ -1,0 +1,58 @@
+*******************
+*** SIP Request ***
+*******************
+INVITE sip:user2@server2.com SIP/2.0
+Via: SIP/2.0/UDP pc33.server1.com;branch=z9hG4bK776asdhds Max-Forwards: 70
+To: user2 <sip:user2@server2.com>
+From: user1 <sip:user1@server1.com>;tag=1928301774
+Call-ID: a84b4c76e66710@pc33.server1.com
+CSeq: 314159 INVITE
+Contact: <sip:user1@pc33.server1.com>
+Content-Type: application/sdp
+Content-Length: 142
+
+---- User1 Message Body Not Shown ----
+
+
+
+	Request-Line
+INVITE sip:user2@server2.com SIP/2.0
+<method> <request-uri> <version>
+
+	Via
+Via: SIP/2.0/UDP pc33.server1.com;branch=z9hG4bK776asdhds Max-Forwards: 70
+<version> <local address of user1; ?>
+Max-Forwards limits number of proxy servers? Prevents infinite loops.
+Used to send a response to a request.
+
+	To
+To: user2 <sip:user2@server2.com>
+<username> <request-uri>
+
+	From
+From: user1 <sip:user1@server1.com>;tag=1928301774
+<username> <uri>;<id for caller>
+
+	Call-ID
+Call-ID: a84b4c76e66710@pc33.server1.com
+<globally_unique_identifier@caller_id>
+
+	CSeq
+CSeq: 314159 INVITE
+<integer> <command>
+The integer is incremented for each message.
+This is used to detect undelivered or out-of-order messages.
+
+	Contact
+Contact: <sip:user1@pc33.server1.com>
+<uri_for_direct_route_to_user>
+Enables the callee to directly contact the caller.
+
+	Content-Type
+Content-Type: application/sdp
+Description of message
+?
+
+	Content-Length
+Content-Length: 142
+Byte count of message body

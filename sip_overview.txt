@@ -1,0 +1,45 @@
+SIP
+
+Session Initiation Protocol
+
+Setup, modify, and terminate sessions over IP based network.
+
+	Translate name -> network address
+	Feature negotiation
+	Call management - add, drop, transfer
+	Change session features while in progress
+
+UA - User Agents
+	These are parties interacting with SIP:
+	UAC (Client) - end users
+	UAS (Server)
+		Proxy - sends the request for the client
+		Redirect - sends the request cback to the client; need a different route to recipient
+		Registrar - registers locations/addresses of clients
+		Location - stores locations/addresses of clients
+
+
+~~~ Commands ~~~
+INVITE
+ACK
+BYE
+CANCEL
+OPTIONS
+REGISTER
+INFO
+
+~~~ Responses ~~~
+TRYING
+RINGING
+OK
+
+User1 sends INVITE, say to proxy
+Proxy forwards the invite command and sends a TRYING response
+User2 sends RINGING response when it receives the invitaiton
+Servers forward ringing response to keep user1 in the loop
+User2 sends OK response if person2 actually picks up
+Servers forward ok response to user1
+User1 responds directly to user2 with an OK resonse.
+Transfer media/data
+A user sends a BYE command to terminate the session.
+Other user responds with OK directly.

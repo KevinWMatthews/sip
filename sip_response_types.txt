@@ -1,0 +1,21 @@
+Response Types
+
+1xx: Provisional
+	Request received, continuing to process
+
+2xx: Success
+
+3xx: Redirection
+	Needs further action
+
+4xx: Client Error
+	Request can't be fulfilled by server (so the client must have made a mistake?)
+
+5xx: Server Error
+	Server done messed up
+
+6xx: Global failure
+	All servers failed. Epic fail!
+
+
+Unknown 1xx is treated as 183 (Session in Progress)
